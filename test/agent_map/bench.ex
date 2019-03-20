@@ -55,7 +55,7 @@ defmodule AgentMap.Bench do
       "ets read #{n - m + 1}, p=3" => f,
       "agentmap read #{n - m + 1}" => ag,
       "map read #{n - m + 1}, p=3" => mp
-    }, parallel: 2,
+    }, parallel: 3,
     formatters: [
       {Benchee.Formatters.HTML, file: "output/3.html", auto_open: false},
       Benchee.Formatters.Console
