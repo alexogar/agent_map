@@ -34,7 +34,8 @@ defmodule AgentMap.Mixfile do
       {:heap, "~> 2.0"},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:credo, "~> 1.0", only: :dev},
-      {:benchee, "~> 0.14", only: :test}
+      {:benchee, "~> 0.14", only: :test},
+      {:benchee_html, "~> 0.4", only: :test}
     ]
   end
 
